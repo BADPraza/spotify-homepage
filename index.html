@@ -1,13 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-ll
-    sddd
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/spotify-fav.png" />
+
+    <!-- ---------------adding Montserrat font---------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- --------------------tob bar start--------------------- -->
+
+    <header class="site-header">
+      <div class="logo-container">
+        <a href="/index.html">
+          <img src="/img/spotify.png" alt="Spotify logo" class="logo"
+        /></a>
+      </div>
+      <div class="search-container">
+        <a href="/index.html" class="home-btn">
+          <img src="/img/home.png" alt="Home button" class="home-btn-img" />
+        </a>
+        <div class="search-bar">
+          <img src="/img/search.png" alt="Search Icon" class="search-icon" />
+          <input type="text" placeholder="What do you want to play?" />
+          <div class="vertical-line"></div>
+          <a href="/index.html" class="browse-btn">
+            <img
+              src="/img/browse.png"
+              alt="Browse button"
+              class="browse-btn-img"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="login-container">
+        <a href="/index.html" class="signup-btn">Sign up</a>
+        <a href="/index.html" class="login-btn">Log in</a>
+      </div>
+    </header>
+    <!-- --------------------tob bar end--------------------- -->
+
+    <!-- --------------------------content start-------------------------- -->
+
+    <div class="content-main-container">
+      <div class="library-container">
+        <div class="library-top">
+          <div class="library-container-top">
+            <a href="/index.html" class="library-link">
+              <img
+                src="img/library.png"
+                alt="library img"
+                class="library-img"
+              />
+              <span class="your-library">Your Library</span></a
+            >
+            <a href="/index.html" class="create-playlist-link">
+              <img src="img/plus.png" alt="plus icon" class="plus-icon"
+            /></a>
+          </div>
+
+          <div class="library-content-block">
+            <div><h3 class="lcb-top">Create your first playlist</h3></div>
+            <div style="margin-bottom: 0.5rem">
+              <h4 class="lcb-content">It's easy. we'll help you</h4>
+            </div>
+            <a href="/index.html" class="library-btn">Create playlist</a>
+          </div>
+          <div class="library-content-block">
+            <div>
+              <h3 class="lcb-top">Let's find some podcasts to follow</h3>
+            </div>
+            <div style="margin-bottom: 0.5rem">
+              <h4 class="lcb-content">
+                we'll keep you updated on new episodes
+              </h4>
+            </div>
+            <a href="/index.html" class="library-btn">Browse podcasts</a>
+          </div>
+        </div>
+        <div class="library-bottom">
+          <div class="menu-container">
+            <a href="/index.html" class="menu-link">Legal</a>
+            <a href="/index.html" class="menu-link">Safety & Privacy Center</a>
+            <a href="/index.html" class="menu-link">Privacy Policy</a>
+            <a href="/index.html" class="menu-link">Cookies</a>
+            <a href="/index.html" class="menu-link">About Ads</a>
+            <a href="/index.html" class="menu-link">Accessibility</a>
+          </div>
+          <div style="margin-bottom: 1rem">
+            <a href="/index.html" class="cookies">Cookies</a>
+          </div>
+          <div class="lang-btn">
+            <a href="/index.html" class="lang-link"
+              ><img
+                src="img/globe.png"
+                class="globe-img"
+                alt="globe img"
+              /><span>English</span></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="songs-main-content-container">
+        <div class="songs-content-container">
+          <div class="songs-top-bar">
+            <a href="/index.html" class="songs-link">Popular artists</a>
+            <a href="/index.html" class="show-all">Show all</a>
+          </div>
+          <div class="song-cards-container">
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+<!-- --------------------------------------------------- -->
+
+        <div class="songs-content-container">
+          <div class="songs-top-bar">
+            <a href="/index.html" class="songs-link">Popular artists</a>
+            <a href="/index.html" class="show-all">Show all</a>
+          </div>
+          <div class="song-cards-container">
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------------------- -->
+
+        <div class="songs-content-container">
+          <div class="songs-top-bar">
+            <a href="/index.html" class="songs-link">Popular artists</a>
+            <a href="/index.html" class="show-all">Show all</a>
+          </div>
+          <div class="song-cards-container">
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+            <div class="song-card">
+              <a href="/index.html" class="song-card-link">
+                <div class="song-card-link-con">
+                  <img src="img/anirudh.jpg" alt="Anirudh" class="song-img2" />
+                  <h4 class="artist-name">Anirudh Ravichander</h4>
+                  <h5 class="sbtext">Artist</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="useful-links">
+          <div class="ul-col">
+            <h4 class="ul-heading">Company</h4>
+            <a href="/index.html" class="ul-link">About</a>
+            <a href="/index.html" class="ul-link">Jobs</a>
+            <a href="/index.html" class="ul-link">For the Record</a>
+          </div>
+          <div class="ul-col">
+            <h4 class="ul-heading">Communities</h4>
+            <a href="/index.html" class="ul-link">For Artists</a>
+            <a href="/index.html" class="ul-link">Developers</a>
+            <a href="/index.html" class="ul-link">Advertising</a>
+            <a href="/index.html" class="ul-link">Investors</a>
+            <a href="/index.html" class="ul-link">Vendors</a>
+          </div>
+          <div class="ul-col">
+            <h4 class="ul-heading">Useful links</h4>
+            <a href="/index.html" class="ul-link">Support</a>
+            <a href="/index.html" class="ul-link">Free Mobile App</a>
+            
+          </div>
+          <div class="ul-col">
+            <h4 class="ul-heading">Spotify Plans</h4>
+            <a href="/index.html" class="ul-link">Premium Individual</a>
+            <a href="/index.html" class="ul-link">Premium Duo</a>
+            <a href="/index.html" class="ul-link">Premium Family</a>
+            <a href="/index.html" class="ul-link">Premium Student</a>
+            <a href="/index.html" class="ul-link">Spotify Free</a>
+          </div>
+          <div class="social-links">
+            <a href="/index.html" class="social-icon-link"><img src="img/instagram.png" class="social-icon" alt="instagram icon"></a>
+            <a href="/index.html" class="social-icon-link"><img src="img/fb.png" class="social-icon" alt="instagram icon"></a>
+            <a href="/index.html" class="social-icon-link"><img src="img/twitter.png" class="social-icon" alt="instagram icon"></a>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </body>
 </html>
