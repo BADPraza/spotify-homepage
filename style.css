@@ -548,6 +548,11 @@ body {
 
 
 @media screen and (max-width: 640px){
+
+  .body{
+    margin: 0;
+    background-color: var(--main-bg-color);
+  }
   .content-main-container{
     margin: 0;
     
@@ -579,6 +584,7 @@ body {
     padding-bottom: 1rem;
     margin-bottom: 0rem;
     margin: 0;
+    
   }
 
   .library-bottom{
