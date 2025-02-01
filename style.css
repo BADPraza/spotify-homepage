@@ -13,7 +13,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
+  
 }
 
 body {
@@ -541,7 +541,20 @@ body {
   transition: 0.2s ease;
 }
 
+.ruler {
+  border: 0;
+  height: 1px; /* Thickness of the ruler */
+  background: #333; /* Color of the ruler */
+  margin: 20px 0; /* Space above and below the ruler */
+  width: 100%; /* Full width, or you can set a specific width */
+}
 
+.copy-right{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-gray-color);
+  padding: 1rem;
+}
 
 
 
@@ -560,7 +573,7 @@ body {
   }
   .content-main-container{
     margin: 0;
-    padding: 0.5rem !important;
+    padding: 0.5rem !important ;
     width: 100%;
     
   }
@@ -568,7 +581,7 @@ body {
 .site-header{
   flex-direction: column;
   gap: 1rem;
-  padding: rem;
+  padding: 1rem;
   position: relative;
 }
 .logo-container {
@@ -591,6 +604,8 @@ body {
     padding-bottom: 1rem;
     margin-bottom: 0rem;
     margin: 0;
+    padding-left: 0;
+    padding-right: 0;
     
   }
 
@@ -601,7 +616,7 @@ body {
     margin-left: 0;
     width: 100%;
     margin: 0;
-    padding: 0rem 0rem;
+    padding: 1rem 1rem;
   }
   .content-main-container{
     display: flex;
@@ -626,6 +641,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+  }
+  .useful-links{
+    padding: 1rem 0rem;
   }
   
 }
