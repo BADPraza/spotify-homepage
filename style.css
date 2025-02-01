@@ -444,6 +444,7 @@ body {
   border-radius: 100%;
   transition: 0.2s ease;
   margin-bottom: 0.5rem;
+  object-fit: cover;
   
 }
 .song-img2{
@@ -451,7 +452,7 @@ body {
   aspect-ratio: 1;
   border-radius: 0.5rem;
   transition: 0.2s ease;
-  
+  object-fit: cover;
   margin-bottom: 0.5rem;
 }
 
