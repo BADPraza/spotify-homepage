@@ -553,6 +553,9 @@ body {
   .body{
     margin: 0;
     background-color: var(--main-bg-color);
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 0;
   }
   .content-main-container{
     margin: 0;
