@@ -548,6 +548,10 @@ body {
 
 
 @media screen and (max-width: 640px){
+  .content-main-container{
+    margin: 0;
+    
+  }
 
 .site-header{
   flex-direction: column;
@@ -574,6 +578,7 @@ body {
     height: auto;
     padding-bottom: 1rem;
     margin-bottom: 0rem;
+    margin: 0;
   }
 
   .library-bottom{
@@ -582,6 +587,7 @@ body {
   .songs-main-content-container{
     margin-left: 0;
     width: 100%;
+    margin: 0;
   }
   .content-main-container{
     display: flex;
