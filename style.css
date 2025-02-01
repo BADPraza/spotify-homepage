@@ -13,6 +13,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 body {
@@ -559,13 +560,15 @@ body {
   }
   .content-main-container{
     margin: 0;
+    padding: 0.5rem !important;
+    width: 100%;
     
   }
 
 .site-header{
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem;
+  padding: rem;
   position: relative;
 }
 .logo-container {
@@ -598,6 +601,7 @@ body {
     margin-left: 0;
     width: 100%;
     margin: 0;
+    padding: 0rem 0rem;
   }
   .content-main-container{
     display: flex;
